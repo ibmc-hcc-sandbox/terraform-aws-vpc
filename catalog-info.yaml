@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-terraform-module-vpc
+  title: Terraform Module to Deploy AWS VPC
+  language: terraform
+  description: |
+    This Terraform automation creates and manages the VPC
+  annotations:
+    github.com/project-slug: ibmc-hcc-sandbox/terraform-aws-vpc
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - terraform
+    - aws
+
+spec:
+  type: service
+  owner: Platform-Engineering-Services/ansible-code-managers
+  lifecycle: production
