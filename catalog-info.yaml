@@ -15,5 +15,5 @@ metadata:
 
 spec:
   type: service
-  owner: Platform-Engineering-Services/ansible-code-managers
+  owner: platform-engineering-team
   lifecycle: production
